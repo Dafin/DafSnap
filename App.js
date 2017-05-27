@@ -5,10 +5,15 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
+        <View style={styles.header}>
+            <Text style={styles.title}> Hello World</Text>
+
+
         <Text>Open up App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
         <Text>My Edits start here right!!</Text>
+        </View>
 
       </View>
     );
@@ -27,9 +32,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  dafbox: {
-    backgroundColor: 'yellow',
+
+  header: {
+    backgroundColor: 'orange',    
   },
+
+    title: {
+    fontSize : 30,
+    backgroundColor: 'yellow',
+    color: 'white',
+  }
 
 
 });
