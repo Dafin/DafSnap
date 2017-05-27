@@ -8,7 +8,7 @@ export default class App extends React.Component {
         <Text>Open up App.js to start working on your app!</Text>
         <Text>Changes you make will automatically reload.</Text>
         <Text>Shake your phone to open the developer menu.</Text>
-        <Text>My Edits start here right!!!</Text>
+        <Text>My Edits start here right!!</Text>
 
       </View>
     );
@@ -17,14 +17,19 @@ export default class App extends React.Component {
 
 
 
-// 4.styles
+//4.styles
 
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#eee',
+    backgroundColor: 'cyan',
     alignItems: 'center',
     justifyContent: 'center',
   },
+  dafbox: {
+    backgroundColor: 'yellow',
+  },
+
+
 });
