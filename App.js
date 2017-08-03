@@ -46,15 +46,14 @@ export default class App extends React.Component {
 
 
       <Text>Open up App.js to start working on your app!</Text>
-      <Text>Changes you make will automatically reload.</Text>
       <Text>Shake your phone to open the developer menu.</Text>
       <Text>My Edits innit!!</Text>
       </View>
 
       <Emoji isVisible={this.emojiIsVisible}>
-      <SnapText isVisible={this.textIsVisible}>
-      <Camera type="front"/> 
-      </SnapText>
+        <SnapText isVisible={this.textIsVisible}>
+        <Camera type="front"/> 
+        </SnapText>
       </Emoji>
 
       </View>
@@ -64,7 +63,6 @@ export default class App extends React.Component {
 
 
   //styles
-
 
   const styles = StyleSheet.create({
     container: {
@@ -87,7 +85,6 @@ export default class App extends React.Component {
     button: {
       backgroundColor: 'gray'
     }
-
 
 
   });
