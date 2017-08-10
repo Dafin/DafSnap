@@ -1,3 +1,5 @@
+Saturday's 27 May 2017 saw the introductory workshop to React Native Applications, led by [Formidable](http://formidable.com) Labs Lead Engineer Jani Evakallio, take place at [Normally](http://www.normally.com).
+
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
 
 Below you'll find information about performing common tasks. The most recent version of this guide is available [here](https://github.com/react-community/create-react-native-app/blob/master/react-native-scripts/template/README.md).
